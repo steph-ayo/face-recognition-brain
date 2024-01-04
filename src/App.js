@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation/Navigation";
 import Logo from "./components/Logo/Logo";
 import Rank from "./components/Rank/Rank";
 import ImageLinkForm from "./components/ImageLinkForm/ImageLinkForm";
+import FaceRecognition from "./components/FaceRecognition/";
 import "./App.css";
 
 const particlesOptions = {
@@ -25,7 +26,7 @@ export default function App() {
       <Logo />
       <Rank />
       <ImageLinkForm />
-      {/* <FaceRecognition /> */}
+      <FaceRecognition />
     </div>
   );
 }
