@@ -1,7 +1,7 @@
 import React from "react";
 import "./ImageLinkForm.css";
 
-export default function ImageLinkForm() {
+export default function ImageLinkForm({ onInputChange }) {
   return (
     <div>
       <p className="f3" style={{ textAlign: "center" }}>
